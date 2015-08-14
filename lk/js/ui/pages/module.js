@@ -1,0 +1,1 @@
+var radPages = angular.module('rad.pages', []);

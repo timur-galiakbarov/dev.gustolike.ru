@@ -1,0 +1,64 @@
+.menu-item a, .tab-nav a{
+    font-family: 'Arial' !important;
+}
+.tab-nav a{
+    text-transform: none !important;
+}
+
+/*Цвета соц.сетей*/
+.vk-background{
+    background: #527397;
+}
+.twiiter-background{
+    background: #55ACEE;
+}
+/*Страница с акцией*/
+.tabs-ball{
+    margin-top:15px;
+}
+.page-banner{
+    width:100%;
+    min-height:150px;
+    max-height:300px;
+    overflow: hidden;
+}
+.page-description{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    padding-bottom: 0px;
+    background: rgba(33, 33, 33, 0.65);
+    color: #fff;
+    max-height:180px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+}
+.page-description p{
+
+}
+.goToGroup{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.prize-title{
+    height: 38px !important;
+    overflow: hidden;
+    font-size:16px !important;
+}
+.prize-picture{
+    border:1px dashed #eee;
+    height:180px;
+    padding:10px;
+    text-align: center;
+}
+.prize-picture img{
+    max-height: 160px;
+    max-width: 160px;
+}
+.prize-description{
+    height:57px !important;
+    width:100%;
+    overflow: hidden;
+}

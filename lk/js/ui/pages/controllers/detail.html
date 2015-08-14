@@ -1,0 +1,66 @@
+<div class="card" id="profile-main">
+    <div class="pm-overview c-overflow">
+        <div class="pmo-pic">
+            <div class="p-relative">
+                <div ng-show="model.isLogo">
+                    <img class="img-responsive" src="{{model.logoImgURL}}" alt="">
+                </div>
+
+                <div class="dropdown pmop-message">
+                    <a data-toggle="dropdown" href="" class="btn bgm-white btn-float z-depth-1">
+                        <i class="md md-message"></i>
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <textarea placeholder="Write something..."></textarea>
+
+                        <button class="btn bgm-green btn-icon"><i class="md md-send"></i></button>
+                    </div>
+                </div>
+
+                <a href="" class="pmop-edit">
+                    <i class="md md-camera-alt"></i> <span class="hidden-xs">Update Profile Picture</span>
+                </a>
+            </div>
+
+
+            <div class="pmo-stat">
+                <h2 class="m-0 c-white">1562</h2>
+                Количество участников
+            </div>
+        </div>
+
+        <div class="goToGroup">
+            <rad-go-to-group></rad-go-to-group>
+        </div>
+
+
+    </div>
+
+    <div class="pm-body clearfix">
+        <div class="p-relative">
+            <div class="page-banner" ng-show="model.pageBanner">
+                <img src="{{model.pageBannerUrl}}" width="100%">
+            </div>
+            <div class="page-description" ng-show="model.useDescription">
+                <p ng-bind-html="model.description">
+
+                </p>
+            </div>
+        </div>
+        <ul class="tab-nav tn-justified">
+            <li class="waves-effect" ui-sref-active="active"><a ui-sref=".balls">Мои баллы</a></li>
+            <li class="waves-effect" ui-sref-active="active"><a ui-sref=".shop">Вознаграждения</a></li>
+            <li class="waves-effect" ui-sref-active="active"><a ui-sref=".rating">Рейтинг</a></li>
+            <li class="waves-effect" ui-sref-active="active"><a ui-sref=".about">Об акции</a></li>
+            <li class="waves-effect" ui-sref-active="active"><a ui-sref=".support">Поддержка</a></li>
+        </ul>
+
+        <div class="tabs-ball" ui-view>
+
+
+
+        </div>
+
+    </div>
+</div>
