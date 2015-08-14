@@ -37,6 +37,7 @@ angular.module('rad.pages').controller('pageDetailController', ['$scope', 'pageS
             }
             if (pageInfo.data.isVk == "1"){
                 $scope.model.isVk = true;
+
                 if (pageInfo.data.vkGroup) {
                     $scope.model.vkGroup = "http://vk.com/" + pageInfo.data.vkGroup;
                 }
