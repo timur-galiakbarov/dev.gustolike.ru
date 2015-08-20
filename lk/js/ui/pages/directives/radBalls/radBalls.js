@@ -6,7 +6,7 @@ radBalls.inject = ['accountServerApi', 'vkApi', '$timeout'];
 function radBalls(accountServerApi, vkApi, $timeout) {
     return {
         restrict: 'EA',
-        templateUrl: 'js/pages/directives/radBalls/radBalls.html',
+        templateUrl: 'js/ui/pages/directives/radBalls/radBalls.html',
         controller: ['$scope', 'accountServerApi', 'vkApi', function ($scope, accountServerApi, vkApi) {
 
         }],

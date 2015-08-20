@@ -6,7 +6,7 @@ radGoToGroup.inject = ['pageServerApi', 'vkApi', '$timeout'];
 function radGoToGroup(pageServerApi, vkApi, $timeout) {
     return {
         restrict: 'EA',
-        templateUrl: 'js/pages/directives/radGoToGroup/radGoToGroup.html',
+        templateUrl: 'js/ui/pages/directives/radGoToGroup/radGoToGroup.html',
         controller: ['$scope', function ($scope) {
 
         }],

@@ -6,7 +6,7 @@ radViewRating.inject = ['accountServerApi', 'pageServerApi', '$timeout'];
 function radViewRating(accountServerApi, pageServerApi, $timeout) {
     return {
         restrict: 'EA',
-        templateUrl: 'js/pages/directives/radViewRating/radViewRating.html',
+        templateUrl: 'js/ui/pages/directives/radViewRating/radViewRating.html',
         controller: ['$scope', function ($scope) {
 
         }],

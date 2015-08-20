@@ -6,7 +6,7 @@ radPrizesList.inject = ['pageServerApi'];
 function radPrizesList(pageServerApi) {
     return {
         restrict: 'EA',
-        templateUrl: 'js/pages/directives/radPrizesList/radPrizesList.html',
+        templateUrl: 'js/ui/pages/directives/radPrizesList/radPrizesList.html',
         controller: ['$scope', 'pageServerApi', function ($scope, pageServerApi) {
 
         }],
